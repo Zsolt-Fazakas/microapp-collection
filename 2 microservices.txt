@@ -1,0 +1,19 @@
+2 microservices
+
+1 for client/admin
+
+1 for devices
+
+Make two different port, and call for it from Frontend
+------------
+
+Frontend
+
+Login
+
+Client page:	- verify your own devices
+
+Admin:	half page	/	half page	/	half page
+	CRUD acc	/mapping devices	/	edit smart
+	
+		
