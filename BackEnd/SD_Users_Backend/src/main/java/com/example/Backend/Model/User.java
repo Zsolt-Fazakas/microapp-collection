@@ -1,7 +1,6 @@
 package com.example.Backend.Model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
 import lombok.ToString;
 
@@ -10,6 +9,9 @@ import lombok.ToString;
 @ToString
 public class User {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "user_id")
+    private Integer userId;
     private String name;
     private String surname;
     private String email;

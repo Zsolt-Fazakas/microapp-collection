@@ -22,16 +22,20 @@ from users]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
-    <last-used-providers />
+    <last-used-providers>
+      <object-type object-type="TABLE" editor-provider="DATA" />
+    </last-used-providers>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="d5b8874c-b52e-4f08-8026-985b95b7f397" object-ref="schemas/sd_user/tables/user" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="d5b8874c-b52e-4f08-8026-985b95b7f397" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="daf90ae6-35f5-4354-81c0-629f5b45a390" dataset="sd_user.users" active-filter-id="" />
+    <filter-actions connection-id="d5b8874c-b52e-4f08-8026-985b95b7f397" dataset="sd_user.user" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />

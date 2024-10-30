@@ -1,0 +1,86 @@
+.clientBody {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.clientContainer {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #000;
+  border-radius: 20px;
+  width: 1000px;
+  height: 600px;
+}
+
+.clientSummaryCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  border-right: 2px solid #000;
+}
+
+.clientDeviceList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.clientSummaryCard::-webkit-scrollbar,
+.clientDeviceList::-webkit-scrollbar {
+  width: 0;
+}
+
+.clientSectionTitle {
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  color: #3f51b5;
+  background: linear-gradient(45deg, #3f51b5, #2196f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.clientCard {
+  width: 90%;
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  background-color: #fff;
+}
+
+.clientCard:hover {
+  transform: translateY(-5px);
+}
+
+.clientCard h3 {
+  font-size: 20px;
+  color: #3f51b5;
+}
+
+.clientCard p {
+  margin: 5px 0;
+  color: #666;
+}
