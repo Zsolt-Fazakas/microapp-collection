@@ -1,0 +1,37 @@
+Admin & Client Dashboard Application
+------------------------------------
+This is a React + TypeScript application that provides authentication, user and device management functionalities, and displays information based on the user's role. The application includes separate components for admin and client users, each with access to different features and data.
+
+Features
+--------
+Authentication: Users can log in with email and password.
+Admin Dashboard:
+----------------
+Displays a list of all users and devices.
+Allows adding, editing, and deleting users and devices.
+Only users with the admin role can access this section.
+Client Dashboard:
+-----------------
+Displays information about the logged-in user and their associated devices.
+Users without the admin role are redirected to the client dashboard.
+-----------------
+Automatic Redirection: Unauthenticated users are redirected to the login page.
+
+Technologies Used:
+------------------
+Frontend: React, TypeScript, Zustand (for state management)
+Backend: Spring Boot (REST API for managing users and devices)
+CSS: Custom styling for components
+
+Dependencies
+------------
+React: For building the UI.
+TypeScript: For static typing and type-checking.
+Zustand: For global state management.
+Axios: For making HTTP requests to the backend.
+React Router: For routing and navigation within the app.
+
+Backend Configuration
+---------------------
+Authentication and User Management: The Spring Boot API provides routes for authentication (/login), user creation (/SignIn), and device management.
+Protected Routes: Each route requires authentication to access the relevant resources.
